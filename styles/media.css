@@ -1,0 +1,170 @@
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: #191919;
+    color: whitesmoke;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    color: goldenrod;
+    font-weight: bold;
+    margin: 0; 
+}
+
+pre {
+    font-size: 18px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    margin: 0;
+    padding: 10px 0; 
+    line-height: 1.1; 
+    margin-bottom: -10px;
+}
+
+.links {
+    font-size: 15px;
+    margin-top: 0;
+    margin-left: -25px;
+}
+
+.links p {
+    margin: 0;
+    padding: 0;
+}
+
+.links a {
+    text-decoration: underline;
+    color: GoldenRod;
+    transition: color 0.3s ease;
+}
+
+.links a:visited {
+    color: GoldenRod;
+}
+
+.links a:link {
+    color: GoldenRod;
+}
+
+.links a:hover {
+    color: #FFD700; 
+}
+
+.links a:focus {
+    outline: 2px solid #FFD700;
+    outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+    pre {
+        font-size: 18px;
+        padding: 10px;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+
+    .links p {
+        font-size: 14px;
+    }
+}
+
+.title a{
+    text-decoration: none;
+    color: GoldenRod;
+    transition: color 0.3s ease;
+}
+
+.title a:visited {
+    color: GoldenRod;
+}
+
+.title a:link {
+    color: GoldenRod;
+}
+
+.title a:hover {
+    color: #FFD700; 
+}
+
+.title a:focus {
+    outline: 2px solid #FFD700;
+    outline-offset: 2px;
+}
+
+h2 {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.welcome {
+    text-align: left;
+}
+
+.container {
+    width: 960px;
+    max-width: 960px;
+    margin: 0 auto; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.welcome p {
+    font-size: 14px;
+}
+
+.license {
+    margin-top: 30px;
+    color: whitesmoke;
+}
+
+.license p {
+    font-size: 13px;
+}
+
+.license a {
+    text-decoration: none;
+    color: GoldenRod;
+    transition: color 0.3s ease;
+    font-size: 13px;
+}
+
+.license a:visited {
+    color: GoldenRod;
+}
+
+.license a:link {
+    color: GoldenRod;
+}
+
+.license a:hover {
+    color: #FFD700; 
+}
+
+.license a:focus {
+    outline: 2px solid #FFD700;
+    outline-offset: 2px;
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.media h2 {
+    color: goldenrod;
+    font-size: 25px;
+}
+
+.media {
+    text-align: left;
+}
+
+.media p {
+    font-size: 14px;
+}
+
+
