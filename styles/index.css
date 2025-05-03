@@ -153,3 +153,17 @@ h2 {
 .button {
     margin-top: 25px;
 }
+
+.picture {
+    border-radius: 8px;
+    width: 300px;
+    border: 2px solid whitesmoke;
+} 
+
+.picture {
+    display: flex;
+    float: right;
+    margin-top: 12%;
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
