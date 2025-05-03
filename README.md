@@ -5,5 +5,5 @@ This is my personal website. Here I'll share things I enjoy.
 Check it out! ;)
 
 
-![Uploading lain-serial-experiments-lain.gif…]()
 
+![lain-serial-experiments-lain](https://github.com/user-attachments/assets/20fdfb47-01ff-4fcc-9d77-208b1b48ba1a)
