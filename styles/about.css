@@ -156,16 +156,14 @@ h2 {
 
 .image img {
     border-radius: 8px;
-    width: 300px;
+    width: 250px;
     border: 2px solid whitesmoke;
 } 
 
 .image {
     display: flex;
-    justify-content: left;
-    align-items: left;
-}
-
-.image-text {
-    text-align: left
+    float: left;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-right: 2%;
 }
