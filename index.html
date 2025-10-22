@@ -1,66 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <title>Dorem's Corner | Home</title>
-    <link rel="icon" type="image/x-icon" href="assets/New Project.jpg">
-    <link rel="stylesheet" href="styles/index.css">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>Dorem's Musings | Home</title>
+    <link rel="stylesheet" href="index.css" />
 </head>
 <body>
-    <div class="title">
-        <h1>
+    <header>
+        <div class="banner">
             <a href="index.html">
-                <pre>
-________ _______ ________ ________________  ___
-___  __ \__  __ \___  __ \___  ____/___   |/  / 
-__  / / /_  / / /__  /_/ /__  __/   __  /|_/ /  
-_  /_/ / / /_/ / _  _, _/ _  /___   _  /  / /   
-/_____/  \____/  /_/ |_|  /_____/   /_/  /_/    
-                </pre>
-            </a>
-        </h1>
-    </div>
-    
+                <b>
+<pre>
+                   ________ 
+______ ___   _________  __ \________________________ ___ 
+_  __ `/_ | / /  _ \_  / / /  __ \_  ___/  _ \_  __ `__ \
+/ /_/ /__ |/ //  __/  /_/ // /_/ /  /   /  __/  / / / / /
+\__,_/ _____/ \___//_____/ \____//_/    \___//_/ /_/ /_/
 
-    <div class="links">
-        <p><a href="webpages/media.html">Media</a> | <a href="webpages/writings.html">Writings</a> | <a href="webpages/projects.html">Projects</a> | <a href="webpages/about.html">About</a> | <a href="webpages/contact.html">Contact</a> | <a href="webpages/irc.html">IRC</a></p>
-    </div>
-
-    <div class="container">
-        <hr>
-
-        <img class="picture" src="assets/lain-serial-experiments-lain.gif">
-        
-        <div class="welcome">
-            <h2><b>Welcome to Dorem's Corner!</b></h2>
-            <p>
-                Hi, I'm Dorem, and welcome to my corner of the web! <br><br>
-
-                I'm into a wide range of topics: linguistics, history, philosophy, and anything that helps me understand how the world works. I enjoy keeping myself busy, whether through reading, writing, or just thinking things through.
-                <br><br>
-                When I'm not buried in writing or projects (or school), you'll probably find me training in martial arts, listening to music (mostly rock, metal, or punk), or watching anime. Music shifts with my mood, and I’m always open to new sounds. <br><br>
-                I'm also a Free and Open Source Software (FOSS) advocate. I believe in digital freedom, transparency, and the power of collaborative tools to empower individuals.
-                <br><br>
-                My Eastern Orthodox faith grounds me, it's a quiet constant in my life. I also have a deep interest in Orthodox mysticism and (primarily) Western esotericism, not necessarily out of belief, but out of fascination with its depth and symbolism.
-                <br><br>
-                This site is where I share what I’m working on and thinking about. Thanks for stopping by.<br><br>
-
-            </p>
-        </div>
-
-
-
-        <div class="license">
-            <p><i>Copyleft © Dorem 2025. This website uses the <a href="https://choosealicense.com/licenses/gpl-3.0/">GNU GPLv3 license</a></i></p>
-        </div>        
-        
-        <div class="button">
-            <a href="index.html">
-                <img src="assets/1215-_1__1_.gif" style="width:120px;height:60px;">
+</pre>
+                </b>
             </a>
         </div>
 
+          <nav id="main-nav">
+            <a href="#home" class="active-nav-item">Home</a>            
+            <a href="webpages/media.html">Media</a>
+            <a href="webpages/projects.html">Projects</a>
+            <a href="webpages/writings.html">Writings</a>
+            <a href="webpages/about.html">About</a>
+            <a href="webpages/credits.html">Credits</a>
+        </nav>
+    </header>
+
+    <div class="content-wrapper">
+        <aside class="profile-info">
+            <h3>Sir Dorem von Doremstadt II</h3>
+            <p><em>Linguistics, Philosophy, FOSS, Stuff.</em></p>
+
+            <details class="contacts">
+                <summary>Contact & Links</summary>
+                <dl class="contact-details">
+                    <dt>Email</dt>
+                    <dd>phantom.voyager@proton.me</dd>
+
+                    <dt>Discord</dt>
+                    <dd>@ave.dorem</dd>
+                                        
+                    <dt>XMPP</dt>
+                    <dd>avedorem@based.pt</dd>
+
+                    <dt>GitHub</dt>
+                    <dd><a href="https://github.com/AveDorem" target="_blank" rel="noopener noreferrer">AveDorem</a></dd>
+
+                    <dt>YouTube</dt>
+                    <dd><a href="https://www.youtube.com/@DoremTheVoyager" target="_blank" rel="noopener noreferrer">DoremTheVoyager</a></dd>
+                </dl>
+            </details>
+        </aside>
+
+        <main class="main-content">
+            <section id="about">
+                <h2><span class="prompt">$</span> echo "Welcome to Dorem's Musings!"</h2>
+                <p>Hi, I'm Dorem, and welcome to my corner of the web! I spend most of my time reading, writing, and trying to make sense of things; through language, code, and thought. I like systems that truly mean something, not some noise that fills space.</p>
+                <p>I study the old world: Latin, Greek, history, faith. It reminds me that we're not as modern as we think. I still believe in structure, discipline, and truth, even when I fail at them.</p>
+                <p>I listen to music that sounds alive: alt-rock, black/death-metal, punk, breakcore, shoegaze, and various other genres. I train to stay focused, and I write to stay consistent.</p>
+                <p>This site isn't meant to impress anyone. It's just a trace of what I've built, what I've read, and what I've tried to understand.</p>
+                <p>Thanks for stopping by!</p>
+            </section>
+        </main>
     </div>
+
+    <footer>
+        <img src="https://cyber.dabamos.de/88x31/anarchy-now.gif" alt="Anarchy Now" height="31" />
+        <img src="https://88x31.kate.pet/madeon_linux.gif" alt="Made on Linux" height="31" />
+        <img src="https://cyber.dabamos.de/88x31/jesus_now.gif" alt="Jesus Now" height="31" />
+        <img src="https://cyber.dabamos.de/88x31/aponow.gif" alt="Apocalypse Now" height="31" />
+        <i><p>Copyleft © Dorem 2025. This website uses the <a href="https://choosealicense.com/licenses/gpl-3.0/">GNU GPLv3 license</a>.</p></i>
+    </footer>
 </body>
 </html>
