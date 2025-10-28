@@ -425,10 +425,11 @@ body > footer p {
         .banner {
             font-size: 10px; 
             transform: scale(0.8);
-            transform-origin: top center;
+            transform-origin: center;
         }
 }
 
 
     
+
 
